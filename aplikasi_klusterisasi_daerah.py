@@ -285,7 +285,7 @@ def dbi(max_ratios,n_clusters):
 
 
 # Streamlit Title
-st.title("Klusterisasi PMT serta Daerah Rawan Stunting & Gizi Buruk")
+st.title("klasterisasi PMT serta Daerah Rawan Stunting & Gizi Buruk")
 tab1, tab2, tab3 = st.tabs(['Deskripsi',"Implementasi Pengelompokkan","Hasil Optimal Pengelompokkan"])
 
 with tab1:
