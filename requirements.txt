@@ -1,4 +1,4 @@
-streamlit==1.15.2
+streamlit==1.40.0
 scikit-learn==1.5.2
 seaborn==0.12.2
 kneed==0.8.5
