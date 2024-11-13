@@ -6,3 +6,12 @@ folium==0.14.0
 pandas==1.5.3
 matplotlib==3.6.2
 numpy==1.23.5
+
+# Menambahkan setuptools untuk mengatasi masalah distutils
+setuptools>=65.5.0
+
+# Menambahkan build tool untuk memastikan instalasi yang lancar
+build>=0.7.0
+
+# Memastikan pip diperbarui ke versi terbaru
+pip>=24.0
