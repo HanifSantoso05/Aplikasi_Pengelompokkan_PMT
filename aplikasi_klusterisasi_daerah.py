@@ -90,6 +90,7 @@ def update_centroids(data, clusters, k):
 # Algoritma K-Means konvensional
 def kmeans(data, features_name, k, max_iterations=100):
     start_time = time.time()
+    st.write(f"Nilai K = {k}")
     centroids = initialize_centroids_kmeans_plus_plus(data, k)
     previous_clusters = None
     iteration_count = 0
@@ -169,6 +170,7 @@ def optimal_k_elbow_method(data, features_names, max_k):
 # Algoritma K-Means konvensional
 def kmeans_konvensional(data, features_name, k, max_iterations=100):
     start_time = time.time()
+    st.write(f"Nilai K = {k}")
     centroids = initialize_centroids_kmeans(data, k)
     previous_clusters = None
     iteration_count = 0
